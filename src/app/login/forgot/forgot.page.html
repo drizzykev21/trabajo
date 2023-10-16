@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button (click)="cancel()"><ion-icon name="close-sharp"></ion-icon></ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>  
+
+    <div id="text-container">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title >Reestablecer<br> Contraseña</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+              <ion-input id="user" [(ngModel)]="user.usuario" label="Nombre de Usuario" labelPlacement="floating"
+              placeholder="Ingrese su Usuario"></ion-input>
+            <ion-button (click)="confirm()" size="small" >
+              Reestablecer
+            </ion-button>
+            <br>
+            <div>
+              <h3>{{mensaje}}</h3>
+            </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+</ion-content>

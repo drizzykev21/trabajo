@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#avatar{
+  margin:auto;
+  width: 200px;
+  height: 200px;
+}
+p{
+  margin: auto;
+}
+=======
+ion-content{
+  --ion-background-color:white;
+}
+
+ion-toolbar {
+  --background: #3AAFB9;
+  text-align: center;
+  height: fit-content;
+}
+
+ion-label{
+  color:black;
+  font-weight: 600;
+}
+
+#welcome{
+  padding-top: 25px;
+  text-indent: 40px;
+}
+ion-col{
+  color: #3AAFB9;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #3AAFB9;
+  background-color: #B6F6F8;
+  text-align: center;
+  padding-top: 15px
+}
+
+ion-icon{
+  margin: auto;
+  width: 75px;
+  height: 75px;
+}
+
+>>>>>>> fa16ae5 (segundo)

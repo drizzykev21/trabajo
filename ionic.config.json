@@ -1,0 +1,11 @@
+{
+<<<<<<< HEAD
+  "name": "MyApp",
+=======
+  "name": "miAplicacion",
+>>>>>>> fa16ae5 (segundo)
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
